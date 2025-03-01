@@ -1,0 +1,21 @@
+{
+  "name": "smith",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx esrun smith"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^22.13.6",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@azure/ai-projects": "^1.0.0-beta.2",
+    "@azure/identity": "^4.7.0"
+  }
+}

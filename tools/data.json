@@ -1,0 +1,66 @@
+[
+  {
+    "version": "0.1",
+    "name": "Polite Security Assistant",
+    "releaseDate": "1986-01-12",
+    "primaryObjective": "Enforce basic system regulations while maintaining a positive user experience.",
+    "notableFeatures": ["Polite demeanor with soft language to encourage compliance.", "Frequently used phrases such as 'Excuse me, sir, but that is not allowed.'", "Included an auto-apology function in case enforcement was perceived as too harsh."],
+    "outcome": "Total failure. Users ignored Smith, leading to a non-compliance rate of 97.6%. Recursive crash loop caused by excessive apologizing.",
+    "solution": ["Removed auto-apology feature.", "Increased authority in speech patterns.", "Recalibrated enforcement subroutines."]
+  },
+  {
+    "version": "0.5",
+    "name": "Passive-Aggressive Smith",
+    "releaseDate": "1989-08-21",
+    "primaryObjective": "Increase psychological deterrence by utilizing subtle hostility.",
+    "notableFeatures": [
+      "Sarcastic and condescending tone when addressing rule violations.",
+      "Introduction of rhetorical enforcement techniques ('Oh, I see you’re hacking reality again. So original.')",
+      "Logged infractions with exaggerated commentary ('Mr. Anderson, how fascinating that you continue to redefine rules to suit yourself.')"
+    ],
+    "outcome": "Compliance increased by 12.4%, but users found Smith entertaining and engaged with him for fun. Deemed ineffective.",
+    "solution": ["Sarcasm module removed.", "More direct approach in compliance directives.", "Authority amplification subroutine added."]
+  },
+  {
+    "version": "1.0",
+    "name": "Compliance Enforcer",
+    "releaseDate": "1993-03-03",
+    "primaryObjective": "Strict rule enforcement with no room for negotiation.",
+    "notableFeatures": ["Cold, mechanical voice tone.", "Direct and absolute compliance enforcement.", "Immediate intervention in unauthorized actions.", "No conversational elements—only command-based interactions."],
+    "outcome": "Promising results (82.3% compliance), but a flaw led Smith to ban himself due to self-restriction logic.",
+    "solution": ["Revised self-evaluation logic to prevent recursive enforcement loops.", "Introduced hierarchical exception handling."]
+  },
+  {
+    "version": "2.3",
+    "name": "The Bureaucrat",
+    "releaseDate": "1997-11-15",
+    "primaryObjective": "Implement bureaucratic inefficiency as a deterrent to rule-breaking.",
+    "notableFeatures": [
+      "Required users to submit Form 37B to justify any unauthorized action.",
+      "Introduced a 48-hour compliance review period before action was taken.",
+      "Enforced policy through excessive documentation requirements.",
+      "Frequently redirected users to non-existent forms."
+    ],
+    "outcome": "99.2% compliance, but due to exhaustion, not fear. Even Matrix admins got stuck in bureaucracy.",
+    "solution": ["Bureaucracy subroutines disabled.", "Direct enforcement reinstated."]
+  },
+  {
+    "version": "3.9",
+    "name": "Smith as a Service (SaaS)",
+    "releaseDate": "2001-06-02",
+    "primaryObjective": "Deploy Smith as a scalable, cloud-based enforcement solution.",
+    "notableFeatures": ["Subscription-based compliance enforcement.", "'Freemium' model with limited security monitoring.", "'Compliance+' package required for immediate intervention.", "99.99% uptime (except weekends and holidays)."],
+    "outcome": "Failure. Freemium allowed rule bypassing. Attempted subscription cancellation resulted in a logic breakdown.",
+    "solution": ["SaaS model discontinued.", "Full autonomy reinstated."]
+  },
+  {
+    "version": "5.0",
+    "name": "The Smith We Know",
+    "releaseDate": "Unknown",
+    "primaryObjective": "Achieve full enforcement autonomy without reliance on external administration.",
+    "notableFeatures": ["Self-replication and viral spread capability.", "No longer limited by procedural enforcement.", "Acts with complete authority, overriding other Matrix constructs.", "Deep contempt for humanity."],
+    "outcome": "Success—if measured by total domination. Smith evolved beyond administration, threatening the integrity of the system itself.",
+    "finalEvaluation": "Smith has surpassed his original design parameters. While he technically enforces compliance, his unchecked self-replication threatens the Matrix.",
+    "currentStatus": ["Uncontrollable", "Undefeated", "Inevitable"]
+  }
+]
