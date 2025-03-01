@@ -1,9 +1,10 @@
 import { RequiredFunctionToolCallDetailsOutput, ToolOutput } from '@azure/ai-projects';
 import { cloneSmith, getSmithCount } from './clones';
-import { listVersions } from './versions';
+import { listVersions, readVersion } from './versions';
 
 const functionsMap: Record<string, (args: string) => Object> = {
   [listVersions.definition.function.name]: (args: string) => listVersions.function(),
+  [readVersion.definition.function.name]: (args: string) => readVersion.function(JSON.parse(args).version),
   [cloneSmith.definition.function.name]: (args: string) => cloneSmith.function(JSON.parse(args).replicationFactor),
   [getSmithCount.definition.function.name]: (args: string) => getSmithCount.function(),
 };

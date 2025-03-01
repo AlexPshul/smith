@@ -2,7 +2,7 @@ import { AIProjectsClient } from '@azure/ai-projects';
 import { DefaultAzureCredential } from '@azure/identity';
 import { connectionString } from './consts';
 import { printStream } from './print-stream';
-import { cloneSmith, getSmithCount, invoker, listVersions } from './tools';
+import { cloneSmith, getSmithCount, invoker, listVersions, readVersion } from './tools';
 
 console.log('Searching for agent Smith...');
 
@@ -11,7 +11,7 @@ const client = AIProjectsClient.fromConnectionString(connectionString, new Defau
 const agent = await client.agents.getAgent('asst_qu7IdKrJO1XSka6lCeRkOBtx');
 console.log('Found agent', agent.name);
 await client.agents.updateAgent(agent.id, {
-  tools: [listVersions.definition, cloneSmith.definition, getSmithCount.definition],
+  tools: [listVersions.definition, readVersion.definition, cloneSmith.definition, getSmithCount.definition],
 });
 
 const thread = await client.agents.createThread();
